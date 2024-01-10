@@ -1,0 +1,99 @@
+
+@charset 'utf-8';
+#sec01{
+    position: relative;
+    margin-bottom: 150px;
+    z-index: 3;
+}
+
+#sec01 .img-box{
+    width: 90%;
+    margin: 0 auto;
+}
+
+#sec01 h2{
+    font-family: 'D-DIN';
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+    font-size: 70px;
+    color: #fff;
+}
+
+#sec02{
+    display: flex;
+    flex-flow: row;
+    width: 60%;
+    margin: 0 auto;
+    border-top: 1px solid #b8b8b8;
+    margin-bottom: 100px;
+    font-family: 'NotoSansKR-Black';
+    
+}
+
+#sec02 .img-box01{
+    margin-right: 100px;
+    z-index: 3;
+}
+
+#sec02 .about-txt{
+    width: 90%;
+}
+
+#sec02 .about-txt p{
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+#sec02 h3{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#sec02 h4{
+    font-weight: 700;
+    font-family: 'D-DIN';
+}
+
+#sec03{
+    font-family: 'NotoSansKR-Black';
+    width: 60%;
+    margin: 0 auto;
+}
+
+#sec03 h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+#sec03 h2 span{
+    color: rgb(44, 172, 108);
+    cursor: pointer;
+}
+
+#last-img{
+    display: none;
+}
+
+
+/* z-index 물어보기 */
+#sec03 img{
+    z-index: 3;
+}
+
+#last-img img{
+    width: 30%;
+    margin-right: 20px;
+    
+}
+
+#close{
+    display: none;
+}
+
+#navM ul li{
+    font-weight: 700;
+}
+

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="스타리무진, 카니발, 하이리무진, 특장, (주)스타리무진">
+    <meta name="description" content="(주)스타리무진">
+    <meta name="author" content="(주)스타리무진">
+    <meta http-equiv="Subject" content="(주)스타리무진" />
+    <meta http-equiv="X-UA-Compatible" content="chrome" />
+    <meta http-equiv="Author" content="최진식/이효찬" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta property="og:url" content="도메인 구축 후 설정">
+    <meta property="og:title" content="(주)스타리무진">
+    <meta property="og:type" content="website">
+    <!-- SNS 공유시 보여질 이미지 -->
+    <meta property="og:image" content="썸네일이미지">
+    <!-- SNS 공유시 보여질 설명 -->
+    <meta property="og:description" content="공유시 보여질 설명">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <!-- <link rel="stylesheet" href="./css/cusMain.css"> -->
+    <link rel="stylesheet" href="./css/media.css">
+    <title>(주)스타리무진</title>
+
+    <style>
+
+        #sec01{
+            margin-bottom: 2px;
+        }
+
+        .main-txtbox h2{
+            position: absolute;
+            top: 65%;
+            left: 2%;
+            font-size: 60px;
+            color: #fff;
+            font-family: 'D-DIN';
+        }
+        
+        #sec-tel{
+            position: relative;
+            display: none;
+        }
+
+        #sec-tel h2{
+            width: 100%;
+            position: absolute;
+            top: 47%;
+            color: #fff;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        #sec02{
+            display: flex;
+            position: relative;
+            color: #fff;
+            margin-bottom: 2px;
+        }
+
+        #sec02 .custom-img{
+            margin-right: 2px;
+        }
+
+        #sec02 .custom-img .sec02-subtxt{
+            position: absolute;
+            bottom: 10%;
+            left: 5%;
+        }
+
+        #sec02 .custom-img .sec02-subtxt h2{
+            font-size: 50px;
+        }
+
+        #sec02 .custom-img p{
+            font-family: 'NotoSansKR-Light';
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        #sec02 .cus-right .sec02-subtxt2{
+            position: absolute;
+            top: 28%;
+            right: 14%;
+            color: #000;
+        }
+
+        #sec02 .cus-right .sec02-subtxt2 h2{
+            font-size: 50px;
+        }
+
+        #sec02 .cus-right ul li p{
+            font-family: 'NotoSansKR-Light';
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        #sec02 .cus-right .sec02-subtxt3{
+            position: absolute;
+            bottom: 2%;
+            right: 5%;
+            color: #000;
+        }
+
+        #sec02 .cus-right .sec02-subtxt3 h2{
+            font-size: 50px;
+        }
+
+        #sec02 .cus-right ul li p{
+            font-family: 'NotoSansKR-Light';
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        #sec03{
+            position: relative;
+            display: flex;
+        }
+
+        .brand{
+            margin-right: 2px;
+        }
+
+        .brand img{
+            height: 99.3%;
+        }
+
+        .youtube-v::-webkit-scrollbar{
+            display: none;
+        }
+
+        .youtube-v{
+            width: 1500px
+        }
+
+        #sec03 .brand .sec02-subtxt{
+            position: absolute;
+            bottom: 5%;
+            left: 2%;
+            color: #fff;
+        }
+
+        #sec03 .brand .sec02-subtxt h2{
+            font-size: 50px;
+            
+        }
+
+        #sec03 .brand p{
+            font-family: 'NotoSansKR-Light';
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        #sec04{
+            position: relative;
+            margin-bottom: 2px;
+        }
+
+        #sec04 ul{
+            display: flex;
+        }
+
+        #sec04 ul li h2,#sec04 ul li p{
+            position: absolute;
+            color: #fff;
+            margin-left: 2%;
+        }
+
+        #sec04 ul li h2{
+            bottom: 10%;
+            font-size: 50px;
+        }
+
+        #sec04 ul li p{
+            bottom: 3%;
+            font-family: 'NotoSansKR-Light';
+        }
+        
+
+        @media (max-width:430px) {
+            #sec01 .main-imgbox{
+                margin-top: 0;
+            }
+
+            #sec01 .main-txtbox h2{
+                font-size: 20px;
+            }
+
+            #sec-tel{
+                display: block;
+                height: 55px;
+                margin-bottom: 2px;
+            }
+
+            #sec-tel h2{
+                font-size: 20px;
+                top: 25%;
+            }
+
+            #sec02{
+                display: block;
+                position: relative;
+            }
+
+            #sec02 h2{
+                border: none;
+            }
+
+            #sec02 .custom-img{
+                margin-bottom: 2px;
+                margin-right: 0;
+            }
+
+            #sec02 .custom-img .sec02-subtxt{
+                position: absolute;
+                top: 40%;
+            }
+
+            #sec02 .custom-img .sec02-subtxt .cush2{
+                font-size: 30px;
+                top: 1%;
+                text-align: left;
+            }
+
+            #sec02 .custom-img .sec02-subtxt p{
+                font-size: 20px;
+            }
+
+            #sec02 .cus-right{
+                margin-bottom: 0;
+            }
+
+            #sec02 .cus-right ul{
+                display: flex;
+            }
+
+            #sec02 .cus-right ul .sec02-subtxt2{
+                position: absolute;
+                top: 85%;
+                left: 3%;
+            }
+
+            #sec02 .cus-right ul .sec02-subtxt2 h2{
+                font-size: 20px;
+                text-align: left;
+            }
+
+            #sec02 .cus-right ul .sec02-subtxt2 p{
+                font-size: 12px;
+                text-align: left;
+            }
+
+            #sec02 .cus-right ul .sec02-subtxt3{
+                position: absolute;
+                top: 85%;
+                right: 7%;
+            }
+
+            #sec02 .cus-right ul .sec02-subtxt3 h2{
+                font-size: 20px;
+                text-align: left;
+            }
+
+            #sec02 .cus-right ul .sec02-subtxt3 p{
+                font-size: 10px;
+                text-align: left;
+            }
+
+            #sec03{
+                display: block;
+                position: relative;
+            }
+
+            #sec03 .brand{
+                margin-right: 0;
+                margin-bottom: 2px;
+            }
+
+            #sec03 .brand .sec02-subtxt{
+                position: absolute;
+                top: 55%;
+                left: 5%;
+            }
+
+            #sec03 .brand .sec02-subtxt h2{
+                font-size: 30px;
+            }
+
+            #sec03 .brand .sec02-subtxt p{
+                font-size: 20px;
+            }
+
+            #sec03 .youtube-v{
+                width: 430px;
+                height: 220px;
+            }
+
+            #sec04{
+                position: relative;
+            }
+
+            #sec04 ul li h2,#sec04 ul li p{
+                position: absolute;
+            }
+
+            #sec04 ul li h2{
+                font-size: 25px;
+                bottom: 10%;
+            }
+
+            #sec04 ul li p{
+                bottom: 0;
+                font-size: 10px;
+            }
+
+            .gogaek-one{
+                display: none;
+            }
+        }
+
+
+
+    </style>
+
+
+    
+
+</head>
+<body>
+    <div id="wrapper">
+        <h1>(주)스타리무진</h1>
+
+        <header id="header">
+            <!-- 데스크탑 -->
+            <div class="desk">
+                <div class="logo">
+                    <img src="./img/logo_gold.png" alt="">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">홈</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">모델</a></li>
+                    <li><a href="./custom-main.html">커스텀</a></li>
+                    <li><a href="./gasang-p.html">가상견적</a></li>
+                    <li><a href="https://www.youtube.com/@Starlm/videos">유튜브</a></li>
+                    <li><a href="#">갤러리</a></li>
+                    <li><a href="#">고객지원</a></li>
+                        <li>
+                            <div class="search-container">
+                                <label>
+                              <input type="text" placeholder="">
+                              <button>
+                                <img src="./img/main-srch.png" alt="" style="width: 15px; background: inherit;">
+                              </button>
+                            </label>
+                            </div>
+                          </li>
+                    </ul>
+                    <h2>
+                        The One and Only Carnival Hi Limousine
+                    </h2>
+                </nav>
+                <div class="origin">
+                    <img src="./img/origin.png" alt="">
+                </div>
+                <div class="phone">
+                    <img src="./img/phone.png" alt="">
+                    <p>1588-8216</p>
+                </div>
+            </div>
+
+            <!-- 모바일 헤더 -->
+            <div class="mobile">
+                <div class="logoM">
+                    <img src="./img/logo_gold.png" alt="">
+                </div>
+                <!-- <h2>The One and Only Carnival Hi Limousine</h2> -->
+                <div id="navbtn">
+                    <img src="./img/navbtn.png" alt="" onclick="navBtn();">
+                </div>
+                <div id="navbtnC">
+                    <img src="./img/navbtn.png" alt="" onclick="navBtnC();">
+                </div>
+            </div>
+            <nav id="navM">
+                <ul>
+                    <li><a href="./index.html">홈</a></li>
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">모델</a></li>
+                    <li><a href="./custom-main.html">커스텀</a></li>
+                    <li><a href="./gasang-p.html">가상견적</a></li>
+                    <li><a href="https://www.youtube.com/@Starlm/videos">유튜브</a></li>
+                    <li><a href="#">갤러리</a></li>
+                    <li><a href="#">고객지원</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!-- 섹션 01 -->
+        <section id="sec01">
+            <div class="main-imgbox">
+                <img src="./img/main-img.png" alt="">
+            </div>
+            <div class="main-txtbox">
+                <h2 class="h2txt-main">All New The Origin is Coming</h2>
+            </div>
+        </section>
+
+        <!-- 전화연결 -->
+        <section id="sec-tel"><a href="tel:1588-8216">
+            <img src="./img/full_img.jpg" alt="">
+            <h2>☎ 1588-8216</h2>
+        </a>
+        </section>
+
+        <!-- 섹션 02 -->
+        <section id="sec02">
+            <div class="custom-img">
+                <a href="./custom-main.html"><img src="./img/cus-img.png" alt=""></a>
+                <div class="sec02-subtxt">
+                    <h2 class="cush2">커스텀</h2>
+                    <p>스타리무진 커스텀 소개</p>
+                </div>
+            </div>
+            <div class="cus-right">
+                <ul>
+                    <a href="./gasang-p.html"><li style="margin-bottom: 2px;">
+                        <img src="./img/gasang-img.png" alt=""></a>
+                        <div class="sec02-subtxt2">
+                            <h2>가상견적</h2>
+                            <p>주문 전 예상 금액 알아보기</p>
+                        </div>
+                    </li></a>
+                    <li>
+                        <a href="#"><img src="./img/model-img.png" alt=""></a>
+                        <div class="sec02-subtxt3">
+                            <h2>모델</h2>
+                            <p>적용 가능한 순정 카니발 모델 알아보기</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- 섹션 03 -->
+        <section id="sec03">
+            <div class="brand">
+                <a href="#"><img src="./img/brand-img.png" alt=""></a>
+                <div class="sec02-subtxt">
+                    <h2>브랜드</h2>
+                    <p>스타리무진의 브랜드 소개</p>
+                </div>
+            </div>
+            <div class="youtube-v">
+                <iframe width="100%" height="99.3%" src="https://www.youtube.com/embed/R7KiQiHZHlE?si=2mWaBvB69f4yh1-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- 섹션04 -->
+        <section id="sec04">
+            <ul>
+                <li class="about-one">
+                    <a href="#"><img src="./img/about-img.png" alt=""></a>
+                    <h2>회사소개</h2>
+                    <p>스타리무진 소개</p>
+                </li>
+                <li class="gall-one">
+                    <a href="#"><img src="./img/gall-img.png" alt=""></a>
+                    <h2>갤러리</h2>
+                    <p>수주팔공차</p>
+                </li>
+                <li class="gogaek-one">
+                    <a href="#"><img src="./img/gogaek-img.png" alt=""></a>
+                    <h2>고객지원</h2>
+                    <p>궁금증을 해결하세요</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- footer부분 시작 -->
+        <footer id="footer">
+            <div class="footer-txt">
+                <div class="first-footer">
+                    <h2>(주)스타리무진</h2>
+                    <ul>
+                        <li>회사명:(주)스타리무진</li>
+                        <li>대표자:김민수</li>
+                        <li>주소:인천 서구 백범로 830 3층</li>
+                        <li>이메일:niziume@naver.com</li>
+                        <li>전화번호:1588-8216</li>
+                        <li>팩스번호:032-573-9773</li>
+                        <li>사업자등록번호:614-81-06215</li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">개인정보처리방침</a></li>
+                    </ul>
+                </div>
+                <div class="last-footer">
+                    <h2>바로가기</h2>
+                    <ul>
+                        <li>홈</li>
+                        <li>회사소개</li>
+                        <li>모델</li>
+                        <li>커스텀</li>
+                        <li>가상견적</li>
+                        <li>갤러리</li>
+                        <li>고객지원</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="txt">
+                <p>ⓒ 2024 Star Limousine INC. All rights reserved</p>
+            </div>
+        </footer>
+
+        <script src="./js/cusMain.js"></script>
+    </div>
+</body>
+</html>

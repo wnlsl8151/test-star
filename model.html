@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/media-model.css">
+    <title>(주)스타리무진</title>
+    <style>
+        /* body{
+            height: 8000px;
+          
+        } */
+       
+        #sec01{
+            position: relative;
+            z-index: 9;
+        }
+    
+        #sec01 .sec01-img{
+            width: 90%;
+            margin-bottom: 80px;
+            margin: 0 auto;
+        }
+       
+        #sec01 .sec01-img img{
+            /* margin-left: 16%; */
+            z-index: 1;
+        }
+        #sec01 h2{
+            position: absolute;
+            font-size: 100px;
+            left: 10%;
+            top: 80%;
+            color: white;
+            font-family: 'D-DIN';
+    
+        }
+
+        /* sec02 */
+    
+        #sec02{
+            border-top: #a3a2a2 1px solid;
+            width: 70%;
+            margin: 0 auto;
+            
+        }
+        #sec02 h2{
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+            font-family: 'NotoSansKR-Black';
+            padding-top: 60px;
+            color: #3c3c3d;
+            z-index: 3;
+       
+        }
+    
+        /* sec03 */
+        #sec03{
+            margin-left: 45%;
+            margin-top: 8%;
+            margin-bottom: 5%;
+            text-align: center;
+            
+            
+        }
+        #sec03 .sec03-img{
+            
+            width: 600px;
+            margin-top: 10%;
+            left: 40%;
+        }
+    
+        #sec03 .child{
+            width: 290px;
+            background: #3273af;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 5px;
+            font-weight: 700;
+            font-family: 'NotoSansKR-Bold';
+        }
+
+        #sec03 .pr-nine{
+            width: 290px;
+        }
+
+        #sec03 #nine ul li{
+            /* width: 290px; */
+            border: 1px solid #a3a2a2;
+            padding: 10px;
+        }
+
+        #sec03 .noble ul{
+            display: flex;
+            /* width: 290px; */
+        }
+
+        #sec03 .noble ul li{
+            margin-right: 5px;
+            width: 143px;
+            z-index: 3;
+        }
+    
+        #sec03-1 .sub-main .model-img{
+            width: 45%;
+            margin: 0 auto;
+            margin-bottom: 60px;
+        }
+    
+        #sec03-1 .model-color{
+            margin: 0 auto;
+            margin-left: 80px;
+            
+        }
+        #sec03-1 .model-color ul{
+            width: 80%;
+            display: flex;
+            margin: 0 auto;
+            justify-content: center;
+        }
+    
+        #sec03-1 .model-color ul li{
+            margin-right: 50px;
+            text-align: center;
+            z-index: 3;
+        }
+    
+        #sec03-1 .model-color ul li p{
+            margin-bottom: 15px;
+            
+        }
+    
+        #sec03-1 .model-color ul .color-swp{
+            width: 70px;
+            height: 70px;
+            border: 1px solid #000;
+            border-radius: 50%;
+        }
+    
+        #sec03-1 .model-color ul .color-isg{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: #a3a2a2;
+        }
+    
+        #sec03-1 .model-color ul .color-d2u{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: #3b4081;
+        }
+    
+        #sec03-1 .model-color ul .color-p2m{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: #3c3c3d;
+        }
+    
+        #sec03-1 .model-color ul .color-abp{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: #1d1d1d;
+        }
+
+        .last-con{
+            margin-bottom: 200px;
+        }
+        /* sec04 */
+
+        .en-txt{
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .en-txt h2{
+            text-align: left;
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-weight: 700;
+            color: #262626;
+        }
+
+        .en-img{
+            width: 80%;
+            margin: 0 auto;
+           
+            
+        }
+
+        .en-img ul{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin: 0 auto;
+           
+         }
+         .en-img ul li{
+            margin-right: 20px;
+            z-index: 3;
+         }    
+
+         .en-img ul li img{
+            margin-bottom: 20px;
+         }
+         
+         .en-img ul li p{
+            text-align: center;
+            margin-bottom: 100px;
+         }
+
+       
+    
+    </style>
+</head>
+<body>
+    <header id="header">
+        <!-- 데스크탑 -->
+        <div class="desk">
+            <div class="logo">
+                <img src="./img2/logo_gold.png" alt="">
+            </div>
+            <nav>
+                <ul>
+                    <li>회사소개</li>
+                    <li>모델</li>
+                    <li>커스텀</li>
+                    <li>가상견적</li>
+                    <li>유튜브</li>
+                    <li>갤러리</li>
+                    <li>고객지원</li>
+                    <li>
+                        <div class="search-container">
+                          <input type="text" placeholder="">
+                          <button>
+                            <!-- <img src="./img/main-srch.png" alt="" style="width: 15px; background: inherit;"> -->
+                          </button>
+                        </div>
+                      </li>
+                </ul>
+                <h2>
+                    The One and Only Carnival Hi Limousine
+                </h2>
+            </nav>
+            <div class="origin">
+                <img src="./img2/origin.png" alt="">
+            </div>
+            <div class="phone">
+                <img src="./img2/phone.png" alt="">
+                <p>1588-8216</p>
+            </div>
+        </div>
+
+    <section id="sec01">
+        <div class="sec01-img">
+            <img src="./img2/model-main.png">
+        </div>
+        <h2>Models</h2>
+    </section>
+    
+    <section id="sec02">
+        <div class="sec02">
+            <h2>
+                커스텀 가능한 순정 카니발 모델 라인업
+            </h2>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="sec03">
+            <div class="child">
+                프레스티지
+            </div>
+            <div id="nine">
+                <ul>
+                    <li class="pr-nine">9인승</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sec03-1">
+            <div class="sub-main">
+                <div class="model-img">
+                    <img src="./img2/model1.png" alt="">
+                </div>
+                <div class="model-color">
+                    <ul>
+                        <li>
+                            <p>SWP</p>
+                            <div class="color-swp"></div>
+                        </li>
+                        <li>
+                            <p>ISG</p>
+                            <div class="color-isg"></div>
+                        </li>
+                        <li>
+                            <p>D2U</p>
+                            <div class="color-d2u"></div>
+                        </li>
+                        <li>
+                            <p>P2M</p>
+                            <div class="color-p2m"></div>
+                        </li>
+                        <li>
+                            <p>ABP</p>
+                            <div class="color-abp"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="sec03">
+            <div class="child">
+                노블레스
+            </div>
+            <div id="nine" class="noble">
+                <ul>
+                    <li>9인승</li>
+                    <li>7인승</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sec03-1">
+            <div class="sub-main">
+                <div class="model-img">
+                    <img src="./img2/모델2.png" alt="">
+                </div>
+                <div class="model-color">
+                    <ul>
+                        <li>
+                            <p>SWP</p>
+                            <div class="color-swp"></div>
+                        </li>
+                        <li>
+                            <p>ISG</p>
+                            <div class="color-isg"></div>
+                        </li>
+                        <li>
+                            <p>D2U</p>
+                            <div class="color-d2u"></div>
+                        </li>
+                        <li>
+                            <p>P2M</p>
+                            <div class="color-p2m"></div>
+                        </li>
+                        <li>
+                            <p>ABP</p>
+                            <div class="color-abp"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="sec03">
+            <div class="child">
+                시그니처
+            </div>
+            <div id="nine" class="noble">
+                <ul>
+                    <li>9인승</li>
+                    <li>7인승</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sec03-1">
+            <div class="sub-main">
+                <div class="model-img">
+                    <img src="./img2/모델3.png" alt="">
+                </div>
+                <div class="model-color">
+                    <ul>
+                        <li>
+                            <p>SWP</p>
+                            <div class="color-swp"></div>
+                        </li>
+                        <li>
+                            <p>ISG</p>
+                            <div class="color-isg"></div>
+                        </li>
+                        <li>
+                            <p>D2U</p>
+                            <div class="color-d2u"></div>
+                        </li>
+                        <li>
+                            <p>P2M</p>
+                            <div class="color-p2m"></div>
+                        </li>
+                        <li>
+                            <p>ABP</p>
+                            <div class="color-abp"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="container last-con">
+        <section id="sec03">
+            <div class="child">
+                그래비티
+            </div>
+            <div id="nine" class="noble">
+                <ul>
+                    <li>9인승</li>
+                    <li>7인승</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="sec03-1">
+            <div class="sub-main">
+                <div class="model-img">
+                    <img src="./img2/모델4.png" alt="">
+                </div>
+                <div class="model-color" id="gravity">
+                    <ul>
+                        <li></li>
+                        
+                        <li>
+                            <p>ISG</p>
+                            <div class="color-isg"></div>
+                        </li>
+                       
+                        <li>
+                            <p>P2M</p>
+                            <div class="color-p2m"></div>
+                        </li>
+                        <li>
+                            <p>ABP</p>
+                            <div class="color-abp"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- 엔진 섹션 시작! -->
+    <section id="sec04">
+        <div class="en-txt">
+            <h2>선택 가능 엔진</h2>
+        </div>
+        <div class="en-img">
+            <ul>
+                <li>
+                    <img src="./img2/엔진1.png" alt="">
+                    <p>스마트 스트림 D2.2 디젤 엔진</p>
+                </li>
+                <li>
+                    <img src="./img2/엔진2.png" alt="">
+                    <p>스마트 스트림 G3.5 GDI 가솔린 엔진</p>
+                </li>
+                <li>
+                    <img src="./img2/엔진3.png" alt="">
+                    <p>스마트 스트림 터보 하이브리드 엔진</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Footer 시작! -->
+     <!-- footer부분 시작 -->
+     <footer id="footer">
+        <div class="footer-txt">
+            <div class="first-footer">
+                <h2>(주)스타리무진</h2>
+                <ul>
+                    <li>회사명:(주)스타리무진</li>
+                    <li>대표자:김민수</li>
+                    <li>주소:인천 서구 백범로 830 3층</li>
+                    <li>이메일:niziume@naver.com</li>
+                    <li>전화번호:1588-8216</li>
+                    <li>팩스번호:032-573-9773</li>
+                    <li>사업자등록번호:614-81-06215</li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                </ul>
+            </div>
+            <div class="last-footer">
+                <h2>바로가기</h2>
+                <ul>
+                    <li>홈</li>
+                    <li>회사소개</li>
+                    <li>모델</li>
+                    <li>커스텀</li>
+                    <li>가상견적</li>
+                    <li>갤러리</li>
+                    <li>고객지원</li>
+                </ul>
+            </div>
+        </div>
+        <div class="txt">
+            <p>ⓒ 2024 Star Limousine INC. All rights reserved</p>
+        </div>
+    </footer>
+
+
+    
+
+
+    
+
+</body>
+</html>

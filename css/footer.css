@@ -1,0 +1,47 @@
+#footer{
+    background-image: url(../img/full_img.jpg);
+    color: #fff;
+    padding: 20px;
+    font-family: 'NotoSansKR-Black';
+}
+
+#footer h2{
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+    text-align: left;
+    width: 300px;
+}
+
+.footer-txt{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.first-footer{
+    margin-right: 200px;
+
+}
+
+#footer ul{
+    padding-top: 20px;
+    color: #b9b4b4;
+}
+
+#footer ul li{
+    margin-bottom: 7px;
+    font-weight: 900;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+#footer .txt{
+    display: block;
+    font-size: 13px;
+    width: 800px;
+    text-align: left;
+    margin: 0 auto;
+    color:#ffffff;
+}
